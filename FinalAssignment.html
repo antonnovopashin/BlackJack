@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>BlackJack Game by Anton Novopashin</title>
+    <link rel="stylesheet" type="text/css" href="CSS/FinalAssignment.css">
+</head>
+<body>
+<div id="table">
+    <div id="dealerHandWrapper">
+        
+        <div id="dealerScoreWrapper">
+            <div id="dealerScoreLabelWrapper"><p id="dealerScoreLabel">Dealer's Score</p></div>
+            <div id="dealerScoreScoreWrapper"><span id="dealerScore"></span></div>
+            
+        </div>
+
+        <div id="playerCardsWrapper">
+            <div id="dealerHandLabelWrapper"><p id="dealerCardsLabel">Dealer's Cards</p></div>
+            <div id="dealerHand">
+
+            </div>
+        </div>
+    </div>
+    <div id="playerHandWrapper">
+        <div id="playerScoreWrapper">
+            <div id="playerScoreLabelWrapper"><p id="playerScoreLabel">Player's Score</p></div>
+            <div id="dealerScoreScoreWrapper"><span id="playerScore"></span></div>
+            
+        </div>
+
+        <div id="playerCardsWrapper">
+            <div id="playerHandLabelWrapper"><p id="playerCardsabel">Player's Cards</p></div>
+            <div id="playerHand">
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="buttons">
+
+<input id="StandButton" type="button" value="Stand" />
+<input id="HitButton" type="button" value="Hit" />
+<input id="DealButton" type="button" value="Deal / New Game" />
+
+</div>
+
+<!--<p id="dealerHnd"></p>--> <!--old interface-->
+<!--<p id="playerHnd"></p>--> <!--old interface-->
+
+<audio id="sound1"><source src="sounds/shufflsound.wav" type="audio/wav"></audio>
+<audio id="sound2"><source src="sounds/dealsound.wav" type="audio/wav"></audio>
+
+<script src="scripts/jquery-1.11.3.js"></script>
+<script src="scripts/FinalAssignment.js"></script>
+</body>
+</html>
